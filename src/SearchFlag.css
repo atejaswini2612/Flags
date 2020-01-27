@@ -1,0 +1,58 @@
+.search-app {
+    height: 100%;
+    background-color: #a6dff5;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: darkblue;
+}
+
+.info {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+}
+.text-decoration {
+    text-decoration: underline;
+}
+.container {
+    height: calc(100% - 150px);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 60px;
+}
+.flags-container {
+    margin-top: 10px;
+    display: flex;
+}
+
+.step {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-clear {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.select-info {
+    margin: 15px;
+    color: grey;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
